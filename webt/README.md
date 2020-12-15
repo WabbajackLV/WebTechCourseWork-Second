@@ -10,3 +10,4 @@ In this project, I aim to create a web page that could be used for a Cafe.
 * React (for front-end)
 * Sass (for front-end)
 * Node.js / express (for back-end)
+* Robo 3T / MongoDB (for data base)
