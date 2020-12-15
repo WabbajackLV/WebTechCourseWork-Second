@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -20,18 +21,15 @@ const coffeeSchema = {
     price: Number
 };
 
-const Coffee = mongoose.model("Coffee", coffeeSchema);
+const Coffee = mongoose.model("coffee", coffeeSchema);
 
 //RESTful API
 
-app.get("/coffee", function(req, res){
+app.get("/coffees", function(req, res){
     Coffee.find(function(err, foundCoffees){
-        console.log(foundCoffees);
+        res.send(foundCoffees);
     });
 });
-
-
-
 
 
 
