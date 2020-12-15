@@ -27,11 +27,32 @@ const Coffee = mongoose.model("coffee", coffeeSchema);
 
 app.get("/coffees", function(req, res){
     Coffee.find(function(err, foundCoffees){
-        res.send(foundCoffees);
+        if(!err){
+            res.send(foundCoffees);
+        }else{
+            res.send(err);
+        }
     });
 });
 
+app.post("/coffees", function(req, res){
+    const newCoffee = new Coffee({
+        title: req.body.title,
+        price: req.body.price
+    });
 
+    newCoffee.save();
+});
+
+app.delete("/coffees", function(req, res){
+    Coffee.deleteMany(function(err){
+        if(!err){
+            res.send("Successfully deleted the whole coffee menu.");
+        }else{
+            res.send(err);
+        }
+    });
+});
 
 app.listen(3000, function() {
     console.log("Server started on port 3000");
