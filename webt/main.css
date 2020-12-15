@@ -1,0 +1,144 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f9e0ae;
+}
+
+.topnav {
+  background-color: #682c0e;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.topnav a {
+  margin: 0 20px 0 20px;
+  display: inline-block;
+  color: #fc8621;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.topnav a:hover {
+  background-color: #fc8621;
+  color: #582c0e;
+}
+
+.coffeeBeans {
+  position: absolute;
+  height: 7rem;
+  margin: 30px 0 0 70px;
+  z-index: -1;
+}
+
+h1 {
+  padding-top: 70px;
+  font-size: 4rem;
+  text-align: center;
+  color: #c24914;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 20px;
+  color: #c24914;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  border-width: 1rem;
+  color: #fc8621;
+}
+
+.coffeeCup {
+  display: block;
+  height: 10rem;
+  float: right;
+  margin: 10px 60px 0 0;
+}
+
+.offer {
+  margin-top: 300px;
+  font-size: 3rem;
+}
+
+div {
+  text-align: center;
+}
+
+.offerRow {
+  width: 50%;
+  margin: 200px 0 0 100px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.leftImg {
+  float: left;
+  margin-left: 50px;
+  margin-right: 20px;
+  width: 40%;
+  height: auto;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 66%, 0 87%);
+          clip-path: polygon(0 0, 100% 0, 100% 66%, 0 87%);
+}
+
+.rigthImg {
+  float: right;
+  margin-right: 50px;
+  width: 30%;
+  height: auto;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 65%);
+          clip-path: polygon(0 0, 100% 0, 100% 88%, 0 65%);
+}
+
+.offerRowRight {
+  width: 100%;
+  margin: 18rem 100px 100px 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.lastOffer {
+  margin-top: 40rem;
+}
+
+.paragrRight {
+  margin-right: 20px;
+  margin-top: 0;
+  width: 30%;
+  float: right;
+  text-align: right;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #c24914;
+}
+
+.footer {
+  margin-top: 14rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #682c0e;
+  text-align: center;
+}
+
+.footerText {
+  color: #f9e0ae;
+  font-size: 1.4rem;
+  bottom: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
