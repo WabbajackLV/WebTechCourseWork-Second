@@ -3,6 +3,7 @@ import React from "react";
 function Header(){
     return (<header>
         <div className="topnav">
+            {/* Header navigation buttons */}
             <a href="">Home</a>
             <a href="">Menu</a>
             <a href="">About Us</a>
