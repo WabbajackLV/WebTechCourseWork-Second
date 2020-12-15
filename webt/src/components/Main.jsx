@@ -1,8 +1,9 @@
 import React from "react";
+import Section from './Section';
 
 function Main(){
     return (<div>
-        <h1>HEYO</h1>
+        <Section />
     </div>);
 }
 
