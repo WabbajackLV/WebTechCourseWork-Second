@@ -27,4 +27,16 @@ Header a:hover {
   background-color: #fc8621;
   color: #582c0e;
 }
+
+Footer {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #682c0e;
+  color: #f9e0ae;
+  font-size: 1rem;
+}
 /*# sourceMappingURL=styles.css.map */

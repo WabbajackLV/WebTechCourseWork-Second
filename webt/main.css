@@ -2,36 +2,6 @@ body, html {
   height: 100%;
 }
 
-body {
-  margin: 0;
-  background-color: #f9e0ae;
-}
-
-.topnav {
-  background-color: #682c0e;
-  overflow: hidden;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-.topnav a {
-  margin: 0 20px 0 20px;
-  display: inline-block;
-  color: #fc8621;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 32px;
-}
-
-.topnav a:hover {
-  background-color: #fc8621;
-  color: #582c0e;
-}
-
 .coffeeBeans {
   position: absolute;
   height: 7rem;
@@ -43,14 +13,14 @@ h1 {
   padding-top: 70px;
   font-size: 4rem;
   text-align: center;
-  color: #c24914;
+  color: color(dark);
 }
 
 h3 {
   font-size: 2rem;
   text-align: center;
   padding-top: 20px;
-  color: #c24914;
+  color: color(dark);
 }
 
 hr {
@@ -58,7 +28,7 @@ hr {
   border-top-style: dotted;
   width: 10%;
   border-width: 1rem;
-  color: #fc8621;
+  color: color(secondary);
 }
 
 .coffeeCup {
@@ -124,21 +94,6 @@ div {
 
 p {
   font-size: 1.2rem;
-  color: #c24914;
-}
-
-.footer {
-  margin-top: 14rem;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #682c0e;
-  text-align: center;
-}
-
-.footerText {
-  color: #f9e0ae;
-  font-size: 1.4rem;
-  bottom: 1rem;
+  color: color(dark);
 }
 /*# sourceMappingURL=main.css.map */

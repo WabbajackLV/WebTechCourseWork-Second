@@ -1,54 +1,12 @@
-$colors:(
-    primary: #f9e0ae,
-    secondary: #fc8621,
-    dark: #c24914,
-    darker: #682c0e
-);
 
 $padding: 15px;
-
-@function color($color-name){
-    @return map-get($colors, $color-name);
-}
 
 body, html{
     height: 100%;
 
 }
 
-body{
-    //font family
-    margin: 0;
-    background-color: color(primary);
-    
-}
 
-
-
-.topnav{
-    background-color: #682c0e;
-    overflow: hidden;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-}
-
-.topnav a{
-    margin: 0 20px 0 20px;
-    display: inline-block;
-    color: color(secondary);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 32px;
-    
-    &:hover{
-        background-color: color(secondary);
-        color: #582c0e;
-    }
-}
 
 .coffeeBeans{
     position: absolute;
@@ -155,20 +113,5 @@ p{
     color: color(dark);
 }
 
-.footer{
-    
-    margin-top: 14rem;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: color(darker);
-    text-align: center;
-    
-}
 
-.footerText{
-    color: color(primary);
-    font-size: 1.4rem;
-    bottom: 1rem;
-}
 
