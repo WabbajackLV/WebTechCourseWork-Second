@@ -1,0 +1,44 @@
+$colors:(
+    primary: #f9e0ae,
+    secondary: #fc8621,
+    dark: #c24914,
+    darker: #682c0e
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+body{
+    //font family
+    margin: 0;
+    background-color: color(primary);
+    
+}
+
+Header{
+    background-color: #682c0e;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+Header a{
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    color: color(secondary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    
+    &:hover{
+        background-color: color(secondary);
+        color: #582c0e;
+    }
+}
+
+//Yea

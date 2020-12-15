@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: #f9e0ae;
+}
+
+Header {
+  background-color: #682c0e;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+Header a {
+  margin: 0 20px 0 20px;
+  display: inline-block;
+  color: #fc8621;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+Header a:hover {
+  background-color: #fc8621;
+  color: #582c0e;
+}
+/*# sourceMappingURL=styles.css.map */
