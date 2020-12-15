@@ -39,4 +39,26 @@ Footer {
   color: #f9e0ae;
   font-size: 1rem;
 }
+
+h1 {
+  padding-top: 70px;
+  font-size: 4rem;
+  text-align: center;
+  color: #c24914;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 20px;
+  color: #c24914;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  border-width: 1rem;
+  color: #fc8621;
+}
 /*# sourceMappingURL=styles.css.map */
